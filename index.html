@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>TO-DO LIST</title>
+</head>
+
+<body>
+    <header>
+        <h1>TO - DO LIST</h1>
+    </header>
+    <main>
+        <section id="user-info">
+            <input type="email" name="email" id="email" placeholder="Enter your email address">
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+            <button id="login-button">Login</button>
+        </section>
+        <div id="todo-container">
+            <h1>Your Todo List for Today</h1>
+            <section>
+                <input id="input-todo" type="text">
+                <button id="add-todo">Add</button>
+            </section>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="small-td">Index</th>
+                        <th class="small-td">IsDone</th>
+                        <th class="description-td">Description</th>
+                        <th class="small-td">Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="todo-list">
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="./todo.js"></script>
+</body>
+
+</html>

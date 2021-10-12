@@ -1,0 +1,87 @@
+html{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(243, 232, 215);
+    width: 60%;
+    padding: 5rem;
+    padding-top: 0;
+}
+h1{
+    text-align: center;
+}
+#login-button{
+    padding:0.3rem 0;
+    width: 6rem;
+    border: 0;
+    background-color:#007BFF;
+    color:#ffffff;
+    border-radius: 4px;
+}
+#email,#password,#input-todo{
+    padding:0.3rem;
+    border: 0;
+    width: 12rem;
+}
+#email,#password,#input-todo,#input-todo:visited,#email:visited,#password:visited{
+    outline: none;
+}
+#add-todo{
+    padding:0.3rem 0;
+    width: 6rem;
+    border: 0;
+    background-color:#17A2B8;
+    color:#ffffff;
+    border-radius: 4px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+main > section h1 {
+    color:green;
+}
+
+main > section strong{
+    color: red;
+}
+
+th,td {
+    margin:0;
+    border: 1px solid #000000;
+    padding: 0.5rem;
+    width:10rem;
+    text-align: center;
+}
+#todo-container{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.done{
+    background-color:green;
+}
+td > button {
+    padding:0.3rem 1rem;
+    border: 0;
+    background-color:#DC3545;
+    color:#ffffff;
+    border-radius: 4px;
+}
+.small-td{
+    width:5rem
+}
+
+.description-td{
+    text-align: left;
+    padding-left: 1rem;
+    width:18rem
+}
